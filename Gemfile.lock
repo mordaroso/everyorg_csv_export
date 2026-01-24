@@ -1,10 +1,10 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    addressable (2.8.7)
-      public_suffix (>= 2.0.2, < 7.0)
+    addressable (2.8.8)
+      public_suffix (>= 2.0.2, < 8.0)
     base64 (0.3.0)
-    bigdecimal (3.2.3)
+    bigdecimal (4.0.1)
     capybara (3.40.0)
       addressable
       matrix
@@ -20,8 +20,8 @@ GEM
     childprocess (5.1.0)
       logger (~> 1.5)
     csv (3.3.5)
-    dotenv (3.1.8)
-    httparty (0.22.0)
+    dotenv (3.2.0)
+    httparty (0.24.2)
       csv
       mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
@@ -33,31 +33,31 @@ GEM
     matrix (0.4.3)
     mini_mime (1.1.5)
     mini_portile2 (2.8.9)
-    multi_xml (0.7.2)
-      bigdecimal (~> 3.1)
-    nokogiri (1.18.10)
+    multi_xml (0.8.1)
+      bigdecimal (>= 3.1, < 5)
+    nokogiri (1.19.0)
       mini_portile2 (~> 2.8.2)
       racc (~> 1.4)
-    nokogiri (1.18.10-aarch64-linux-gnu)
+    nokogiri (1.19.0-aarch64-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.10-arm-linux-gnu)
+    nokogiri (1.19.0-arm-linux-gnu)
       racc (~> 1.4)
-    nokogiri (1.18.10-arm64-darwin)
+    nokogiri (1.19.0-arm64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.10-x86_64-darwin)
+    nokogiri (1.19.0-x86_64-darwin)
       racc (~> 1.4)
-    nokogiri (1.18.10-x86_64-linux-gnu)
+    nokogiri (1.19.0-x86_64-linux-gnu)
       racc (~> 1.4)
-    public_suffix (6.0.2)
+    public_suffix (7.0.2)
     racc (1.8.1)
-    rack (3.2.1)
+    rack (3.2.4)
     rack-test (2.2.0)
       rack (>= 1.3)
-    rake (13.3.0)
+    rake (13.3.1)
     regexp_parser (2.11.3)
     rexml (3.4.4)
-    rubyzip (3.1.1)
-    selenium-webdriver (4.35.0)
+    rubyzip (3.2.2)
+    selenium-webdriver (4.40.0)
       base64 (~> 0.2)
       logger (~> 1.4)
       rexml (~> 3.2, >= 3.2.5)
@@ -83,13 +83,13 @@ DEPENDENCIES
   capybara (>= 3.39)
   capybara-screenshot
   dotenv (~> 3.1)
-  httparty (~> 0.22.0)
+  httparty (~> 0.24.0)
   rake (~> 13.2)
   selenium-webdriver (>= 4.11.0)
-  webdrivers (~> 5.0)
+  webdrivers (~> 5.2.0)
 
 RUBY VERSION
-   ruby 3.4.5p51
+  ruby 4.0.1
 
 BUNDLED WITH
-   2.6.7
+  4.0.3
