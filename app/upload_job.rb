@@ -19,6 +19,9 @@ class UploadJob
       body: {
         every_org_import: { file: file }
       },
+      headers: {
+        'X-Api-Key' => ENV.fetch('ADMIN_API_KEY')
+      },
       multipart: true
     }
 
